@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Oleo+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Mate+SC&family=Oleo+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mate SC", serif;
+    background-color: rgb(92, 92, 92);
+    color: white;
+}
+
+header {
+    background: radial-gradient(
+      rgba(255, 236, 2, 1) 0%,
+      rgba(255, 223, 2, 1) 33.6%,
+      rgba(255, 187, 29, 1) 61%,
+      rgba(255, 175, 7, 1) 100.7%
+    );
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  #logo {
+    font-family: "Oleo Script", system-ui;
+    font-weight: lighter;
+    font-size: 80px;
+    margin-left: -50px;
+  }
+  #description {
+    margin: -30px 0px 50px 230px;
+    font-size: 20px;
+  }
+  nav ul {
+    background-color: black;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  nav ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    color: rgba(255, 236, 2, 1);
+    font-size: 18px;
+    text-decoration: none;
+  }
+  nav ul li {
+    display: flex;
+  }
+
+
+aside {
+    flex: 1;
+
+    height: 700px;
+    padding: 20px;
+    background: rgb(54, 52, 52);
+    margin-left: 20px;
+    width: 300px;
+    float: left;
+}
+#ul{
+    line-height: 50px;
+    
+}
+#ul li{
+    list-style-type: disc;
+    
+}
+#ul li a{
+   text-decoration: none;    
+   color: white;
+}
+
+
+.column {
+    display: block;
+    width: 800px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 0 10px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .column img{
+}
+.row {
+    margin: 0 -5px;
+    width: 100%;
+}
+.card{
+    display: flex;
+}
+.card > img{
+    height: 190px;
+    margin: 5px 10px 5px -5px;
+    width: 200px;
+}
+
+  #btnn{
+    background: radial-gradient(
+        rgba(255, 236, 2, 1) 0%,
+        rgba(255, 223, 2, 1) 33.6%,
+        rgba(255, 187, 29, 1) 61%,
+        rgba(255, 175, 7, 1) 100.7%
+      );    border-radius: 5px;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    margin-left: 500px;
+}
+#btnn:hover{
+    cursor: pointer;
+}
+
+
+#footer {
+    background: radial-gradient(
+      rgba(255, 236, 2, 1) 0%,
+      rgba(255, 223, 2, 1) 33.6%,
+      rgba(255, 187, 29, 1) 61%,
+      rgba(255, 175, 7, 1) 100.7%
+    );
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+   
+    margin-top: 1000px;
+    width: 100%;
+    padding-top: 20px;
+    height: 70px;
+  }
+  
